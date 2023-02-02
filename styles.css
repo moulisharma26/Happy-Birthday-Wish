@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background: #020202;
+  cursor: crosshair;
+}
+canvas {
+  display: block;
+  margin-bottom: 500px;
+}
+h6 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(238, 28, 203);
+  font-family: "Source Sans Pro";
+  font-size: 5em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+  margin-top: 80px;
+}
+
+.hdng {
+  animation: rainbow 5s linear infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    color: rgb(214, 87, 87);
+  }
+  20% {
+    color: rgb(233, 155, 11);
+  }
+  40% {
+    color: rgb(247, 247, 83);
+  }
+  60% {
+    color: rgb(124, 231, 124);
+  }
+  70% {
+    color: rgb(247, 132, 195);
+  }
+  80% {
+    color: rgb(105, 105, 241);
+  }
+  100% {
+    color: rgb(125, 70, 136);
+  }
+}
+
+.img {
+  text-align: center;
+  margin-top: 600px;
+}
